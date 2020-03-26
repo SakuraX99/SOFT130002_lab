@@ -1,0 +1,104 @@
+body{
+    background-color: rgba(250, 240, 230,0.6);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(142,229,238,0.4);
+    border:2px solid;
+    border-radius:25px;
+    font-family: Hannotate SC;
+    font-size: 35px;
+}
+
+li {
+    float: left;
+}
+
+li a.head {
+    display: block;
+    color: darkcyan;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 140px;
+    height: 50px;
+    vertical-align: bottom;
+}
+
+li a:hover {
+    background-color: rgba(0, 238, 238,0.4);
+}
+
+img.head{
+    vertical-align: middle;
+}
+
+article{
+    border-style:solid;
+    border-width:medium;
+    border-color: darkcyan;
+    font-family: Hannotate SC;
+    border-radius:10px;
+}
+
+div#content{
+    width: 70%;
+    float: left;
+    position: absolute;
+    left: 30px;
+}
+
+div#side{
+    position: absolute;
+    right: 30px;
+    top: 100pt;
+    width: 200px;
+}
+
+a.side{
+    color: darkcyan;
+}
+
+div.blank{
+    height: 30px;
+}
+
+
+table#sidetable{
+    border-radius:10px;
+    border-collapse:separate;
+    border-spacing:10px 50px;
+    border:3px solid darkcyan;
+}
+
+article h4{
+    color: darkcyan;
+    font-style:italic;
+    font-family: "Apple Braille";
+}
+
+article h5{
+    font-style: oblique;
+}
+
+article p{
+    font-family: "Apple Braille";
+}
+
+.vLine {
+    border-left: solid 2px darkcyan;
+    height: 300%;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: 15px;
+    position: absolute;
+    right: 250px;
+}
+
+article span{
+    color: darkcyan;
+}
