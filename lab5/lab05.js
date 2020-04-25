@@ -69,7 +69,7 @@ function arrSameStr(){
     let obj = {};
     for(let i = 0;i<strArray.length;i++){
         if(!obj[strArray.charAt(i)]){
-            obj[strArray.charAt(i)] = i;
+            obj[strArray.charAt(i)] = 1;
         }
         else{
             obj[strArray.charAt(i)]++;
