@@ -15,6 +15,6 @@
 
 ### 提交截图和效果图
 * 提交截图 
-<img src="提交截图.png">
+![image](./img/提交截图.png)
 * 效果展示图 
-<img src="效果展示截图.png">
+![image](./img/效果展示截图.png)
