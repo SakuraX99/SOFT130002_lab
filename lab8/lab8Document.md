@@ -1,0 +1,6 @@
+# Lab8 Document
+### 1.解决方案
+* 图片的转换使用JS修改container的margin值，使用负的margin值使图片左右滑动，而使用overflow:hidden使除当前显示的图片的其他图片隐藏
+* 数字标识使用动态修改span元素的class是否是on的方法，结合css实现颜色变化
+* 轮播使用setInterval设置2000ms时间间隔，使用onmouseenter和onmouseleave控制鼠标停靠的行为
+* 修改table捕获点击td元素的操作添加input元素实现输入，使用blur实现点击其他位置保存修改的操作
